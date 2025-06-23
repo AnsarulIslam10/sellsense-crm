@@ -19,6 +19,7 @@ const LoginForm = () => {
             name="email"
             className="w-full p-2 border rounded"
             placeholder="Enter your Email"
+            defaultValue="admin@gmail.com"
           />
         </div>
         <div className="flex-between my-2">
@@ -31,6 +32,7 @@ const LoginForm = () => {
             name="password"
             className="w-full p-2 border rounded"
             placeholder="Enter your Password"
+            defaultValue="admin123"
           />
         </div>
         <button
